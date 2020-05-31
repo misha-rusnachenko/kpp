@@ -1,0 +1,64 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.preload {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    background: #7cbdc9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#continue {
+    width: 300px;
+    height: 60px;
+    background: #003b32;
+    color: #7cbdc9;
+    border: none;
+    font-size: 34px;
+    transition: 0.2s all ease-in-out;
+}
+
+#continue:hover {
+    color: #003b32;
+    background: #7cbdc9;
+    border: 3px solid #003b32;
+}
+
+#map { 
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 40px;
+    color: #003b32;
+}
+
+.marker {
+    height: 35px;
+    width: 48px;
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.mapboxgl-popup {
+    min-width: 150px;
+}
+
+.mapboxgl-popup p {
+    margin: 0;
+}
